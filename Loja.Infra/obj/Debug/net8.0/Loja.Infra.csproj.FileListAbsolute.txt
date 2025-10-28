@@ -1,0 +1,17 @@
+C:\Users\Fellype Gabriel\source\repos\Loja.API\Loja.Infra\bin\Debug\net8.0\Loja.Infra.deps.json
+C:\Users\Fellype Gabriel\source\repos\Loja.API\Loja.Infra\bin\Debug\net8.0\Loja.Infra.runtimeconfig.json
+C:\Users\Fellype Gabriel\source\repos\Loja.API\Loja.Infra\bin\Debug\net8.0\Loja.Infra.dll
+C:\Users\Fellype Gabriel\source\repos\Loja.API\Loja.Infra\bin\Debug\net8.0\Loja.Infra.pdb
+C:\Users\Fellype Gabriel\source\repos\Loja.API\Loja.Infra\bin\Debug\net8.0\Loja.Domain.dll
+C:\Users\Fellype Gabriel\source\repos\Loja.API\Loja.Infra\bin\Debug\net8.0\Loja.Domain.pdb
+C:\Users\Fellype Gabriel\source\repos\Loja.API\Loja.Infra\obj\Debug\net8.0\Loja.Infra.csproj.AssemblyReference.cache
+C:\Users\Fellype Gabriel\source\repos\Loja.API\Loja.Infra\obj\Debug\net8.0\Loja.Infra.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Fellype Gabriel\source\repos\Loja.API\Loja.Infra\obj\Debug\net8.0\Loja.Infra.AssemblyInfoInputs.cache
+C:\Users\Fellype Gabriel\source\repos\Loja.API\Loja.Infra\obj\Debug\net8.0\Loja.Infra.AssemblyInfo.cs
+C:\Users\Fellype Gabriel\source\repos\Loja.API\Loja.Infra\obj\Debug\net8.0\Loja.Infra.csproj.CoreCompileInputs.cache
+C:\Users\Fellype Gabriel\source\repos\Loja.API\Loja.Infra\obj\Debug\net8.0\Loja.Infra.csproj.Up2Date
+C:\Users\Fellype Gabriel\source\repos\Loja.API\Loja.Infra\obj\Debug\net8.0\Loja.Infra.dll
+C:\Users\Fellype Gabriel\source\repos\Loja.API\Loja.Infra\obj\Debug\net8.0\refint\Loja.Infra.dll
+C:\Users\Fellype Gabriel\source\repos\Loja.API\Loja.Infra\obj\Debug\net8.0\Loja.Infra.pdb
+C:\Users\Fellype Gabriel\source\repos\Loja.API\Loja.Infra\obj\Debug\net8.0\Loja.Infra.genruntimeconfig.cache
+C:\Users\Fellype Gabriel\source\repos\Loja.API\Loja.Infra\obj\Debug\net8.0\ref\Loja.Infra.dll

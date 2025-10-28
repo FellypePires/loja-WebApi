@@ -1,0 +1,17 @@
+C:\Users\Fellype Gabriel\source\repos\Loja.API\Loja.Application\obj\Debug\net8.0\Loja.Application.csproj.AssemblyReference.cache
+C:\Users\Fellype Gabriel\source\repos\Loja.API\Loja.Application\obj\Debug\net8.0\Loja.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Fellype Gabriel\source\repos\Loja.API\Loja.Application\obj\Debug\net8.0\Loja.Application.AssemblyInfoInputs.cache
+C:\Users\Fellype Gabriel\source\repos\Loja.API\Loja.Application\obj\Debug\net8.0\Loja.Application.AssemblyInfo.cs
+C:\Users\Fellype Gabriel\source\repos\Loja.API\Loja.Application\obj\Debug\net8.0\Loja.Application.csproj.CoreCompileInputs.cache
+C:\Users\Fellype Gabriel\source\repos\Loja.API\Loja.Application\bin\Debug\net8.0\Loja.Application.deps.json
+C:\Users\Fellype Gabriel\source\repos\Loja.API\Loja.Application\bin\Debug\net8.0\Loja.Application.dll
+C:\Users\Fellype Gabriel\source\repos\Loja.API\Loja.Application\bin\Debug\net8.0\Loja.Application.pdb
+C:\Users\Fellype Gabriel\source\repos\Loja.API\Loja.Application\bin\Debug\net8.0\Loja.Domain.dll
+C:\Users\Fellype Gabriel\source\repos\Loja.API\Loja.Application\bin\Debug\net8.0\Loja.Infra.dll
+C:\Users\Fellype Gabriel\source\repos\Loja.API\Loja.Application\bin\Debug\net8.0\Loja.Domain.pdb
+C:\Users\Fellype Gabriel\source\repos\Loja.API\Loja.Application\bin\Debug\net8.0\Loja.Infra.pdb
+C:\Users\Fellype Gabriel\source\repos\Loja.API\Loja.Application\obj\Debug\net8.0\Loja.App.6844D516.Up2Date
+C:\Users\Fellype Gabriel\source\repos\Loja.API\Loja.Application\obj\Debug\net8.0\Loja.Application.dll
+C:\Users\Fellype Gabriel\source\repos\Loja.API\Loja.Application\obj\Debug\net8.0\refint\Loja.Application.dll
+C:\Users\Fellype Gabriel\source\repos\Loja.API\Loja.Application\obj\Debug\net8.0\Loja.Application.pdb
+C:\Users\Fellype Gabriel\source\repos\Loja.API\Loja.Application\obj\Debug\net8.0\ref\Loja.Application.dll

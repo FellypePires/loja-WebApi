@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Fellype Gabriel\\source\\repos\\Loja.API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{63B18E7E-D968-4975-AE58-B5B479F83F37}|Loja.Application\\Loja.Application.csproj|c:\\users\\fellype gabriel\\source\\repos\\loja.api\\loja.application\\services\\pedidoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63B18E7E-D968-4975-AE58-B5B479F83F37}|Loja.Application\\Loja.Application.csproj|solutionrelative:loja.application\\services\\pedidoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CDEFD93-681F-4F6A-ABED-A4692729CD85}|Loja.API\\Loja.API.csproj|c:\\users\\fellype gabriel\\source\\repos\\loja.api\\loja.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CDEFD93-681F-4F6A-ABED-A4692729CD85}|Loja.API\\Loja.API.csproj|solutionrelative:loja.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C1F0486-8F95-49E7-BC17-5A26D74D5913}|Loja.Domain\\Loja.Domain.csproj|c:\\users\\fellype gabriel\\source\\repos\\loja.api\\loja.domain\\entities\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C1F0486-8F95-49E7-BC17-5A26D74D5913}|Loja.Domain\\Loja.Domain.csproj|solutionrelative:loja.domain\\entities\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CDEFD93-681F-4F6A-ABED-A4692729CD85}|Loja.API\\Loja.API.csproj|c:\\users\\fellype gabriel\\source\\repos\\loja.api\\loja.api\\controllers\\pedidoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CDEFD93-681F-4F6A-ABED-A4692729CD85}|Loja.API\\Loja.API.csproj|solutionrelative:loja.api\\controllers\\pedidoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63B18E7E-D968-4975-AE58-B5B479F83F37}|Loja.Application\\Loja.Application.csproj|c:\\users\\fellype gabriel\\source\\repos\\loja.api\\loja.application\\dtos\\pedidoitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63B18E7E-D968-4975-AE58-B5B479F83F37}|Loja.Application\\Loja.Application.csproj|solutionrelative:loja.application\\dtos\\pedidoitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63B18E7E-D968-4975-AE58-B5B479F83F37}|Loja.Application\\Loja.Application.csproj|c:\\users\\fellype gabriel\\source\\repos\\loja.api\\loja.application\\dtos\\pedidodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63B18E7E-D968-4975-AE58-B5B479F83F37}|Loja.Application\\Loja.Application.csproj|solutionrelative:loja.application\\dtos\\pedidodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PedidoService.cs",
+              "DocumentMoniker": "C:\\Users\\Fellype Gabriel\\source\\repos\\Loja.API\\Loja.Application\\Services\\PedidoService.cs",
+              "RelativeDocumentMoniker": "Loja.Application\\Services\\PedidoService.cs",
+              "ToolTip": "C:\\Users\\Fellype Gabriel\\source\\repos\\Loja.API\\Loja.Application\\Services\\PedidoService.cs",
+              "RelativeToolTip": "Loja.Application\\Services\\PedidoService.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAkwFwAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T04:08:14.677Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Produto.cs",
+              "DocumentMoniker": "C:\\Users\\Fellype Gabriel\\source\\repos\\Loja.API\\Loja.Domain\\Entities\\Produto.cs",
+              "RelativeDocumentMoniker": "Loja.Domain\\Entities\\Produto.cs",
+              "ToolTip": "C:\\Users\\Fellype Gabriel\\source\\repos\\Loja.API\\Loja.Domain\\Entities\\Produto.cs",
+              "RelativeToolTip": "Loja.Domain\\Entities\\Produto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T03:36:48.318Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Fellype Gabriel\\source\\repos\\Loja.API\\Loja.API\\Program.cs",
+              "RelativeDocumentMoniker": "Loja.API\\Program.cs",
+              "ToolTip": "C:\\Users\\Fellype Gabriel\\source\\repos\\Loja.API\\Loja.API\\Program.cs",
+              "RelativeToolTip": "Loja.API\\Program.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAABgAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T03:18:32.044Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PedidosController.cs",
+              "DocumentMoniker": "C:\\Users\\Fellype Gabriel\\source\\repos\\Loja.API\\Loja.API\\Controllers\\PedidosController.cs",
+              "RelativeDocumentMoniker": "Loja.API\\Controllers\\PedidosController.cs",
+              "ToolTip": "C:\\Users\\Fellype Gabriel\\source\\repos\\Loja.API\\Loja.API\\Controllers\\PedidosController.cs",
+              "RelativeToolTip": "Loja.API\\Controllers\\PedidosController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T03:16:41.301Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PedidoDto.cs",
+              "DocumentMoniker": "C:\\Users\\Fellype Gabriel\\source\\repos\\Loja.API\\Loja.Application\\DTOs\\PedidoDto.cs",
+              "RelativeDocumentMoniker": "Loja.Application\\DTOs\\PedidoDto.cs",
+              "ToolTip": "C:\\Users\\Fellype Gabriel\\source\\repos\\Loja.API\\Loja.Application\\DTOs\\PedidoDto.cs",
+              "RelativeToolTip": "Loja.Application\\DTOs\\PedidoDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T03:09:15.842Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PedidoItemDto.cs",
+              "DocumentMoniker": "C:\\Users\\Fellype Gabriel\\source\\repos\\Loja.API\\Loja.Application\\DTOs\\PedidoItemDto.cs",
+              "RelativeDocumentMoniker": "Loja.Application\\DTOs\\PedidoItemDto.cs",
+              "ToolTip": "C:\\Users\\Fellype Gabriel\\source\\repos\\Loja.API\\Loja.Application\\DTOs\\PedidoItemDto.cs",
+              "RelativeToolTip": "Loja.Application\\DTOs\\PedidoItemDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T03:09:11.047Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
