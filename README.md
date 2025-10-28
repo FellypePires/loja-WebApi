@@ -258,7 +258,7 @@ git commit -m "Versão inicial da Loja WebAPI"
 ### 4️⃣ Conectar ao Repositório Remoto
 
 ```bash
-git remote add origin https://github.com/seuusuario/LojaWebAPI.git
+git remote add origin (https://github.com/FellypePires/loja-WebApi.git)
 ```
 
 ### 5️⃣ Enviar para o GitHub
