@@ -189,6 +189,18 @@
         }
       }
     },
+    "/api/Pedidos/relatorio/saida-produtos": {
+      "get": {
+        "tags": [
+          "Pedidos"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Produtos": {
       "get": {
         "tags": [

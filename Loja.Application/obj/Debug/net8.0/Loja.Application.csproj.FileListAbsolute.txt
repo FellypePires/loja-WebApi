@@ -15,3 +15,4 @@ C:\Users\Fellype Gabriel\source\repos\Loja.API\Loja.Application\obj\Debug\net8.0
 C:\Users\Fellype Gabriel\source\repos\Loja.API\Loja.Application\obj\Debug\net8.0\refint\Loja.Application.dll
 C:\Users\Fellype Gabriel\source\repos\Loja.API\Loja.Application\obj\Debug\net8.0\Loja.Application.pdb
 C:\Users\Fellype Gabriel\source\repos\Loja.API\Loja.Application\obj\Debug\net8.0\ref\Loja.Application.dll
+C:\Users\Fellype Gabriel\source\repos\Loja.API\Loja.Application\obj\Debug\net8.0\Loja.Application.sourcelink.json

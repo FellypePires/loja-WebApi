@@ -90,6 +90,16 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "PedidosController",
+    "Method": "RelatorioSaidaProdutos",
+    "RelativePath": "api/Pedidos/relatorio/saida-produtos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Loja.API.Controllers.ProdutosController",
     "Method": "Get",
     "RelativePath": "api/Produtos",

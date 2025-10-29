@@ -165,3 +165,4 @@ C:\Users\Fellype Gabriel\source\repos\Loja.API\Loja.API\obj\Debug\net8.0\refint\
 C:\Users\Fellype Gabriel\source\repos\Loja.API\Loja.API\obj\Debug\net8.0\Loja.API.pdb
 C:\Users\Fellype Gabriel\source\repos\Loja.API\Loja.API\obj\Debug\net8.0\Loja.API.genruntimeconfig.cache
 C:\Users\Fellype Gabriel\source\repos\Loja.API\Loja.API\obj\Debug\net8.0\ref\Loja.API.dll
+C:\Users\Fellype Gabriel\source\repos\Loja.API\Loja.API\obj\Debug\net8.0\Loja.API.sourcelink.json

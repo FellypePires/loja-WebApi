@@ -48,4 +48,11 @@ public class PedidosController : ControllerBase
         var pedido = await _pedidoService.ObterPedidoAsync(id);
         return Ok(pedido);
     }
+    [HttpGet("relatorio/saida-produtos")]
+    public async Task<IActionResult> RelatorioSaidaProdutos()
+    {
+        var relatorio = await _pedidoService.GerarRelatorioSaidaProdutosAsync();
+        return Ok(relatorio);
+    }
 }
+
