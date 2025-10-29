@@ -1,282 +1,269 @@
-# 📘 Loja WebAPI – Sistema de Gestão de Pedidos e Produtos
+# 📘 **Loja WebAPI – Sistema de Gestão de Pedidos e Produtos**
 
-## 🧾 Descrição Geral
+![Status do Projeto](https://img.shields.io/badge/status-concluído-brightgreen)
+![.NET 8](https://img.shields.io/badge/.NET-8.0-blueviolet)
+![C# 12](https://img.shields.io/badge/C%23-12-blue)
+![Licença](https://img.shields.io/badge/licen%C3%A7a-MIT-blue)
 
-O **Loja WebAPI** é uma aplicação backend desenvolvida em **ASP.NET Core 8** com **Entity Framework Core (SQLite)**, projetada para o **gerenciamento completo de produtos e pedidos**.
 
-O sistema foi desenvolvido aplicando **boas práticas de arquitetura de software**, seguindo os princípios de **Clean Architecture** e **Domain-Driven Design (DDD)**.
-Seu objetivo é demonstrar o domínio de conceitos avançados de desenvolvimento backend .NET, incluindo **persistência real**, **injeção de dependência**, **mapeamento de entidades**, **DTOs** e **documentação de API com Swagger**.
+📖 Descrição Geral:
 
----
+O Loja WebAPI é uma aplicação backend desenvolvida em ASP.NET Core 8 com Entity Framework Core (SQLite), projetada para o gerenciamento completo de produtos e pedidos.
 
-##  Arquitetura do Projeto
+O sistema foi desenvolvido aplicando boas práticas de arquitetura de software, seguindo os princípios de Clean Architecture e Domain-Driven Design (DDD).
 
-A solução foi estruturada em quatro camadas principais para promover desacoplamento, organização e facilidade de manutenção:
+Destaques técnicos:
 
-```
-📦 Loja.API          → Camada de apresentação (Controllers, configuração e Swagger)
-📦 Loja.Application  → Lógica de aplicação (Services, Interfaces, DTOs)
-📦 Loja.Domain       → Entidades e regras de negócio
-📦 Loja.Infra        → Persistência e infraestrutura (DbContext, Migrations, Repositório)
-```
+Persistência real com Entity Framework Core
 
-### 🖐️ Padrões Aplicados
+Injeção de dependência (DI)
 
-* **Domain-Driven Design (DDD)**
-* **Clean Architecture (camadas independentes)**
-* **Repository Pattern (via EF Core)**
-* **Dependency Injection (DI)**
-* **DTOs (Data Transfer Objects)**
-* **Async/Await (operações assíncronas)**
+Mapeamento de entidades e DTOs
 
----
+Documentação interativa com Swagger
 
-## ⚙️ Tecnologias Utilizadas
 
-| Tecnologia                  | Descrição                                              |
-| --------------------------- | ------------------------------------------------------ |
-| **.NET 8.0**                | Framework principal                                    |
-| **ASP.NET Core Web API**    | Criação da API REST                                    |
-| **Entity Framework Core 8** | ORM para persistência de dados                         |
-| **SQLite**                  | Banco de dados leve e local                            |
-| **Swagger / Swashbuckle**   | Documentação interativa da API                         |
-| **C# 12**                   | Linguagem de desenvolvimento                           |
-| **LINQ / Async**            | Manipulação eficiente de dados e consultas assíncronas |
+🏗️ Arquitetura do Projeto:
 
----
+A solução foi estruturada em quatro camadas principais, garantindo organização, escalabilidade e facilidade de manutenção:
 
-## 💿 Banco de Dados e Migrations
+📦 Loja.API → Camada de apresentação (Controllers, configuração e Swagger)
 
-O projeto utiliza **SQLite** para armazenamento local.
-As **migrations** são aplicadas automaticamente no startup da aplicação.
+📦 Loja.Application → Lógica de aplicação (Services, Interfaces, DTOs)
 
-### Exemplo do `appsettings.json`
+📦 Loja.Domain → Entidades e regras de negócio
 
-```json
-"ConnectionStrings": {
-  "LojaDb": "Data Source=loja.db"
-}
-```
+📦 Loja.Infra → Persistência e infraestrutura (DbContext, Migrations, Repositório)
 
-Na primeira execução:
 
-* O banco é criado automaticamente.
-* Produtos iniciais são inseridos via **Seed de Dados**.
-* Todas as tabelas e relacionamentos são configurados via **migrations automáticas**.
+⚙️ Tecnologias Utilizadas:
 
----
+Tecnologia	Descrição
 
-## 🚀 Funcionalidades Principais
+.NET 8.0	Framework principal
 
-### 💲 Módulo de Produtos
+ASP.NET Core Web API	Criação da API REST
 
-* Consulta de todos os produtos disponíveis
-  → `GET /api/Produtos`
-* Cadastro automático de produtos iniciais no banco.
+Entity Framework Core 8	ORM para persistência de dados
 
-### 📦 Módulo de Pedidos
+SQLite	Banco de dados leve e local
 
-* Criar pedidos com múltiplos produtos.
-  → `POST /api/Pedidos`
-* Adicionar produtos a um pedido existente.
-  → `POST /api/Pedidos/{id}/Itens`
-* Atualizar a quantidade de um item.
-  → `PUT /api/Pedidos/{id}/Quantidade`
-* Fechar pedido.
-  → `POST /api/Pedidos/{id}/Fechar`
-* Consultar um pedido detalhado.
-  → `GET /api/Pedidos/{id}`
+Swagger / Swashbuckle	Documentação interativa da API
 
----
+C# 12	Linguagem de desenvolvimento
 
-##  Exemplo de Uso (Swagger)
+LINQ / Async	Manipulação eficiente de dados assíncronos
 
-Após rodar o projeto, acesse o Swagger em:
 
-🔗 **[http://localhost:5051](http://localhost:5051)**
+💿 Banco de Dados – Primeira Execução:
 
----
+Na primeira execução
 
-### 🔹 Criar Pedido
+🏗️ O banco é criado automaticamente
+🛒 Produtos iniciais são inseridos via Seed de Dados
+🔗 Todas as tabelas e relacionamentos são configurados via migrations automáticas
 
-**Endpoint:** `POST /api/Pedidos`
 
-#### Corpo da Requisição:
+🚀 Funcionalidades Principais:
 
-```json
+💲 Produtos
+
+Método	Endpoint	Descrição
+
+GET	/api/Produtos	Listar todos os produtos
+
+
+📦 Pedidos:
+
+Método	Endpoint	Descrição
+
+POST	/api/Pedidos	Criar um novo pedido
+
+POST	/api/Pedidos/{id}/Itens	Adicionar produtos a um pedido existente
+
+PUT	/api/Pedidos/{id}/Quantidade	Atualizar a quantidade de um item
+
+POST	/api/Pedidos/{id}/Fechar	Fechar um pedido
+
+GET	/api/Pedidos/{id}	Consultar um pedido detalhado
+
+
+📊 Relatórios (Diferencial)
+
+Método	Endpoint	Descrição
+
+GET	/api/pedidos/relatorio/saida-produtos	Relatório de saída consolidada de produtos
+
+
+📌 Exemplo de Resposta:
+
+[
+  { "produtoNome": "Camiseta Premium", "quantidadeVendida": 5, "valorTotalVendido": 449.5 },
+  
+  { "produtoNome": "Tênis Esportivo", "quantidadeVendida": 2, "valorTotalVendido": 699.8 }
+]
+
+
+🔍 Nota técnica: Relatório otimizado em LINQ to Objects (in-memory), evitando erros de tradução SQL (RelationalGroupByShaperExpression).
+
+
+🧑‍💻 Exemplo de Uso (Swagger):
+
+Criar Pedido
+POST /api/pedidos
+
 {
   "itens": [
     { "produtoId": 1, "quantidade": 2 },
+    
     { "produtoId": 3, "quantidade": 1 }
   ]
 }
-```
 
-#### Retorno Esperado:
 
-```json
-{ "id": 1 }
-```
+Consultar Pedido:
 
----
+GET /api/pedidos/1
 
-### 🔹 Consultar Pedido
-
-**Endpoint:** `GET /api/Pedidos/1`
-
-#### Exemplo de Resposta:
-
-```json
 {
   "id": 1,
+  
   "status": "Aberto",
+  
   "total": 529.70,
+  
   "itens": [
-    {
-      "produtoId": 1,
-      "produtoNome": "Camiseta Premium",
-      "precoUnitario": 89.90,
-      "quantidade": 2,
-      "subtotal": 179.80
-    },
-    {
-      "produtoId": 3,
-      "produtoNome": "Tênis Esportivo",
-      "precoUnitario": 349.90,
-      "quantidade": 1,
-      "subtotal": 349.90
-    }
+  
+    { "produtoId": 1, "produtoNome": "Camiseta Premium", "precoUnitario": 89.90, "quantidade": 2, "subtotal": 179.80 },
+    
+    { "produtoId": 3, "produtoNome": "Tênis Esportivo", "precoUnitario": 349.90, "quantidade": 1, "subtotal": 349.90 }
   ]
 }
-```
 
----
 
-## 🧠 Regras de Negócio Implementadas
+🔗 Após rodar o projeto, acesse o Swagger em:
+http://localhost:5051/swagger
 
-* **Pedidos iniciam com status “Aberto”.**
-* **Pedidos fechados não podem ser alterados.**
-* **Validação de produtos inexistentes.**
-* **Cálculo automático de subtotal e total.**
-* **Persistência real no banco SQLite.**
 
----
+🧠 Regras de Negócio Implementadas:
 
-## 🧱 Estrutura Técnica
+Regra	Descrição:
+Status inicial	Pedidos sempre iniciam com “Aberto”
 
-| Camada          | Responsabilidade                          |
-| --------------- | ----------------------------------------- |
-| **Domain**      | Entidades, enums e regras de negócio      |
-| **Application** | Serviços e lógica de aplicação            |
-| **Infra**       | Banco de dados e persistência             |
-| **API**         | Controllers, rotas e documentação Swagger |
+Bloqueio	Pedidos fechados não podem ser alterados
 
----
+Validação	Produtos inexistentes não podem ser adicionados
 
-## 🧽 Como Executar o Projeto Localmente
+Cálculo	Subtotal e total calculados automaticamente
 
-### 1️⃣ Clonar o Repositório
+Persistência	Banco de dados SQLite real
 
-```bash
-git clone https://github.com/seuusuario/LojaWebAPI.git
-cd LojaWebAPI
-```
 
-### 2️⃣ Restaurar Dependências
+🧱 Estrutura Técnica:
+Camada	Responsabilidade
 
-```bash
-dotnet restore
-```
+Domain	Entidades, enums e regras de negócio
 
-### 3️⃣ Compilar o Projeto
+Application	Serviços, DTOs e lógica de aplicação
 
-```bash
-dotnet build
-```
+Infra	Persistência e banco de dados
 
-### 4️⃣ Executar a Aplicação
+API	Controllers, rotas e documentação Swagger
 
-```bash
-dotnet run --project Loja.API
-```
 
-O Swagger será aberto automaticamente no navegador.
+🧽 Como Executar o Projeto Localmente:
+Etapa	Comando
+1️⃣ Clonar repositório	git clone https://github.com/FellypePires/loja-WebApi.git && cd loja-WebApi
 
----
+2️⃣ Restaurar dependências	dotnet restore
 
-## 📋 Boas Práticas Aplicadas
+3️⃣ Compilar projeto	dotnet build
 
-* Separacão de responsabilidades (**SRP**)
-* Uso extensivo de **async/await**
-* **Injeção de dependência (DI)** nativa do ASP.NET Core
-* Entidades encapsuladas e uso de **DTOs**
-* Código limpo e comentado
-* Automção de **migrations** e **seed**
-* Aderência aos princípios **SOLID**
+4️⃣ Executar aplicação	dotnet run --project Loja.API
 
----
+🔗 O Swagger será aberto automaticamente no navegador.
 
-## 👨‍💻 Autor
 
-**Fellype Gabriel Pires**
-Desenvolvedor Backend .NET
+📋 Boas Práticas Aplicadas:
 
-📧 *[fellype.pires@insidesistemas.com.br](mailto:fellype.pires@insidesistemas.com.br)*
-🔗 [GitHub – FellypePires](https://github.com/FellypePires)
+✅ Separação de responsabilidades (SRP)
 
----
+✅ Uso extensivo de async/await
 
-## 💼 Considerações Finais
+✅ Injeção de dependência (DI)
 
-O projeto **Loja WebAPI** foi desenvolvido com foco em **profissionalismo, clareza de arquitetura e boas práticas de engenharia de software**.
-Demonstra **proficiência em C#, .NET 8, DDD, Clean Architecture e EF Core**, sendo ideal para **avaliações técnicas e portfólios profissionais**.
+✅ DTOs para encapsulamento e exposição limpa
 
-Esta solução é funcional, escalável e reflete o padrão técnico exigido em ambientes corporativos.
+✅ Código limpo, comentado e padronizado
 
----
+✅ Automação de migrations e seed
 
-## 🫋 Publicação no GitHub
+✅ Aderência aos princípios SOLID
 
-### 1️⃣ Inicializar Repositório
 
-```bash
-git init
-```
+💡 Melhorias Futuras:
+Técnicas
 
-### 2️⃣ Adicionar Arquivos
+Autenticação e autorização com JWT/Identity
 
-```bash
-git add .
-```
+Validação com FluentValidation
 
-### 3️⃣ Criar Commit Inicial
+Testes automatizados com xUnit
 
-```bash
-git commit -m "Versão inicial da Loja WebAPI"
-```
+Operacionais / Visuais
 
-### 4️⃣ Conectar ao Repositório Remoto
+Dashboard (Blazor/React) consumindo relatórios
 
-```bash
-git remote add origin (https://github.com/FellypePires/loja-WebApi.git)
-```
+Gráficos de produtos mais vendidos
 
-### 5️⃣ Enviar para o GitHub
+Filtros por período/categoria nos relatórios
 
-```bash
-git push -u origin main
-```
 
-Após o push, o README será exibido automaticamente na página principal do repositório.
+💡Arquitetura:
 
----
+Pipeline de CI/CD com GitHub Actions
 
-## 🗾 Licença
+Dockerfile e deploy em Azure/Render
 
-Distribuído sob a licença **MIT**, permitindo uso, modificação e distribuição com atribuição de crédito ao autor.
 
----
+🧾 Troubleshooting (Erros Comuns e Soluções):
 
-### ✅ Resultado Final
+Erro	Causa	Solução
 
-Um backend **completo, documentado e padronizado**, desenvolvido com **boas práticas profissionais** e ideal para **demonstração técnica e apresentação em processos seletivos**.
+PedidoService não implementa interface	Métodos divergentes entre classe/interface	Corrigir assinaturas conforme commits finais
+
+PedidoItem não contém definição Produto	Falta de navegação no EF	Usar ProdutoNome diretamente no DTO
+
+Failed to fetch no Swagger	HTTPS local sem certificado	Acessar via http://localhost:<porta>
+
+RelationalGroupByShaperExpression	LINQ tentou agrupar direto no SQL	Alterar para LINQ in-memory
+
+Migrations não criam banco	Projeto alvo incorreto no console	Selecionar Loja.Infra e rodar Add-Migration
+
+
+👨‍💻 Autor:
+
+Fellype Gabriel Pires — Desenvolvedor Backend .NET
+
+📧 fellype.pires@insidesistemas.com.br
+
+🔗 GitHub – [FellypePires](https://github.com/FellypePires)
+
+
+💼 Considerações Finais
+
+O projeto Loja WebAPI foi desenvolvido com foco em profissionalismo, clareza de arquitetura e boas práticas.
+
+Demonstra proficiência em C#, .NET 8, DDD, Clean Architecture e EF Core, sendo ideal para avaliações técnicas, processos seletivos e portfólios profissionais.
+
+A solução é funcional, escalável e reflete o padrão técnico exigido em ambientes corporativos.
+
+
+🗾 Licença
+
+Distribuído sob a licença MIT, permitindo uso, modificação e distribuição com atribuição ao autor.
+
+
+✅ Resultado Final
+
+Um backend completo, documentado e padronizado, desenvolvido com boas práticas profissionais e ideal para demonstração técnica e apresentação em processos seletivos.
